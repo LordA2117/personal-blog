@@ -1,0 +1,48 @@
+baseURL = 'http://lazycse.github.io/'
+languageCode = 'en-us'
+title = 'LazyCSE Blog'
+
+theme = "re-terminal"
+
+[params]
+	themeColor = "green"
+
+[languages]
+  [languages.en.params]
+    languageName = "English"
+    title = "LazyCSE Blog"
+    subtitle = "Blog where I can post shit related to my videos or whatever"
+    owner = "LazyCSE"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+    newerPosts = "Newer posts"
+    olderPosts = "Older posts"
+    missingContentMessage = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime = "min read"
+    words = "words"
+
+    [languages.en.params.logo]
+      logoText = "LazyCSE Blog"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      # Submenus is available since v2.1.0
+      # [[languages.en.menu.main]]
+      #   identifier = "submenuParent"
+      #   name = "Submenu"
+      # [[languages.en.menu.main]]
+      #   parent = "submenuParent"
+      #   identifier = "anItem"
+      #   name = "AnItem"
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "GitHub"
+        url = "https://github.com/LazyCSE"
+      [[languages.en.menu.main]]
+        identifier = "youtube"
+        name = "YouTube"
+        url = "https://www.youtube.com/@LazyCSE"
