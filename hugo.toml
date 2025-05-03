@@ -46,3 +46,7 @@ theme = "re-terminal"
         identifier = "youtube"
         name = "YouTube"
         url = "https://www.youtube.com/@LazyCSE"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
