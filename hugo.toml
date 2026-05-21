@@ -1,18 +1,22 @@
-baseURL = 'http://lazycse.github.io/'
+baseURL = 'https://blogs.bobbysmiles.xyz/'
 languageCode = 'en-us'
-title = 'LazyCSE Blog'
+title = "Bobby's Headspace"
 
 theme = "re-terminal"
 
 [params]
 	themeColor = "green"
 
+[params.author]
+		name = 'Bobby Smiles'
+		email = 'smiles@bobbysmiles.xyz'
+
 [languages]
   [languages.en.params]
     languageName = "English"
-    title = "LazyCSE Blog"
-    subtitle = "Blog where I can post shit related to my videos or whatever"
-    owner = "LazyCSE"
+    title = "Bobby's Headspace"
+    subtitle = "Blog where I can post whatever interests me"
+    owner = "LordA2117"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
@@ -26,7 +30,7 @@ theme = "re-terminal"
     words = "words"
 
     [languages.en.params.logo]
-      logoText = "LazyCSE Blog"
+      logoText = "Bobby's Headspace"
       logoHomeLink = "/"
 
     [languages.en.menu]
@@ -41,11 +45,15 @@ theme = "re-terminal"
       [[languages.en.menu.main]]
         identifier = "github"
         name = "GitHub"
-        url = "https://github.com/LazyCSE"
+        url = "https://github.com/LordA2117"
       [[languages.en.menu.main]]
         identifier = "youtube"
         name = "YouTube"
         url = "https://www.youtube.com/@LazyCSE"
+			[[languages.en.menu.main]]
+				identifier = "portfolio"
+				name = "Portfolio"
+				url = "https://portfolio.bobbysmiles.xyz"
 
 [caches]
   [caches.images]
