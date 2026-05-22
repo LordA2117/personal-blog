@@ -1,1 +1,1 @@
-# lazycse.github.io
+# blogs.bobbysmiles.xyz

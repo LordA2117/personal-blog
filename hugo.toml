@@ -1,5 +1,5 @@
 baseURL = 'https://blogs.bobbysmiles.xyz/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = "Bobby's Headspace"
 
 theme = "re-terminal"
