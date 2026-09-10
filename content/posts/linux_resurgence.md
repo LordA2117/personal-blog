@@ -9,7 +9,7 @@ tags = ["linux", "rambling"]
 keywords = ["Linux", "PewDiePie", "SomeOrdinaryGamers"]
 description = "My thoughts on the recent hype behind Linux"
 showFullContent = false
-readingTime = false
+readingTime = true
 hideComments = false
 color = "" #color from the theme settings
 +++
